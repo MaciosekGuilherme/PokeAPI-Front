@@ -1,46 +1,63 @@
-# Getting Started with Create React App
+<h1>Poke API</h1> 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=typescript&message=framework&color=blue&style=for-the-badge&logo=TYPESCRIPT"/>
+  <img src="https://img.shields.io/static/v1?label=javascript&message=framework&color=blue&style=for-the-badge&logo=JAVASCRIPT"/>
+  <img src="https://img.shields.io/static/v1?label=Vercel&message=deploy&color=blue&style=for-the-badge&logo=vercel"/></br>
+  <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
+</p>
 
-## Available Scripts
+### Tópicos 
 
-In the project directory, you can run:
+:small_blue_diamond: Descrição do projeto
 
-### `npm start`
+:small_blue_diamond: Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+:small_blue_diamond: Deploy da Aplicação
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+:small_blue_diamond: Como rodar a aplicação
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Descrição do projeto 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="justify">
+  Este projeto tem por finalidade a demonstração do consumo de API através do axios. Utilizando JS e Typescript como base, além do CSS para estilização 
+</p>
 
-### `npm run eject`
+## Funcionalidades
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+:heavy_check_mark: Adicionar o pokemon a pokedex
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+:heavy_check_mark: Remover o pokemon da pokedex  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+:heavy_check_mark: Ver os detalhes do pokemon   
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Deploy da Aplicação :dash:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+> Link do deploy da aplicação: https://poke-api-front-seven.vercel.app/
+
+
+## Como rodar a aplicação :arrow_forward:
+
+No terminal, clone o projeto: 
+
+```
+git clone https://github.com/MaciosekGuilherme/PokeAPI-Front
+```
+Abra uma nova janela de terminal e rode o comando:
+```
+npm install
+```
+
+Assim todas as dependências serão instaladas.
+
+
+Para rodar o projeto localmente, utilize o comando:
+```
+npm run start
+```
